@@ -4,7 +4,62 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <title>cssMemSlider</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <input type="radio" name="slide" id="slide1" checked />
+        <input type="radio" name="slide" id="slide2" />
+        <input type="radio" name="slide" id="slide3" />
+        <input type="radio" name="slide" id="slide4" />
+
+        <div class="slider">
+          <div class="slider-wrapper">
+            <img
+              class="slider-image"
+              src="assets/images/image1.webp"
+              alt="image"
+            />
+            <img
+              class="slider-image"
+              src="assets/images/image2.webp"
+              alt="image"
+            />
+            <img
+              class="slider-image"
+              src="assets/images/image3.webp"
+              alt="image"
+            />
+            <img
+              class="slider-image"
+              src="assets/images/image4.webp"
+              alt="image"
+            />
+          </div>
+        </div>
+        <div class="controls">
+          <div class="text-wrapper">
+            <span class="text">Good advice:)</span>
+            <span class="text">Indeed</span>
+            <span class="text">be in front-end!</span>
+            <span class="text">it happens...</span>
+          </div>
+          <div class="controls-wrapper">
+            <label for="slide1"></label>
+            <label for="slide2"></label>
+            <label for="slide3"></label>
+            <label for="slide4"></label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
