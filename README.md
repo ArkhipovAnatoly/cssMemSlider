@@ -1,2 +1,2 @@
 # cssMemSlider
-[View Deploy](https://arkhipovanatoly.github.io/cssMemSlider/)
+[View Deploy]( https://ArkhipovAnatoly.github.io/cssMemSlider/cssMemSlider/index.html)
